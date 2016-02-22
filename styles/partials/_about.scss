@@ -1,0 +1,91 @@
+
+section.about .about__drew,
+section.about .about__vic {
+	align-items: flex-start;
+}
+
+
+section.about {
+	.about__img,
+	.about__text {
+		flex: 1 0 %50;
+	}
+}
+
+section.about {
+	background-color: #fff;
+	color: rgba(26, 23, 26, 0.5607840000000001);
+	h3 {
+		font-family: $ptSans;
+		font-size: 3.2rem;
+		color: #1a171a;
+		padding: 48px 0 48px;
+		margin: 0;
+	}
+	a {
+		color:#000 ;
+		&:hover {
+			color: $green;
+		}
+	}
+}
+
+section.about .about__text {
+	text-align: right;
+	.transluscentLine {
+		float: right;
+		height: 10px;
+		width: 75%;
+		border-radius: 15px;
+		background: rgba(26, 23, 26, .08);
+	}
+}
+
+section.about .about__text {
+		font-family: $roboto;
+	h4 {
+		clear: both;
+		font-family: $ptSans;
+		color: $green;
+		font-size: 4.8rem;
+		// font-weight: 700;
+		text-transform: uppercase;
+		margin: 5px 0 10px;
+	}
+	span.jobTitle {
+		font-weight: 700;
+		color: #1a171a;
+		font-size: 1.6rem;
+		text-transform: uppercase;
+	}
+	p {
+		font-size: 1.8rem;
+		color:rgba(26, 23, 26, 0.5607840000000001);
+	}
+	ul {
+		justify-content: flex-end;
+		font-size: 2.4rem;
+		li {
+			padding: 0 0 0 10px;
+		}
+	}
+}
+
+section.about .about__vic {
+	flex-direction: row-reverse;
+	padding:100px 0;
+	.about__text {
+		text-align: left;
+	}
+	.transluscentLine {
+		float: left;
+	}
+	.about__socialIcons {
+		ul {
+		justify-content: flex-start;
+			li {
+				padding: 0 10px 0 0;
+			}	
+		}
+	}
+}

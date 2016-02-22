@@ -1,0 +1,80 @@
+section.podcastPlayer {
+	background-color: rgba(0, 0, 0, 0.97);
+}
+audio {
+	width: 100%;
+}
+
+.audioplayer {
+	color: #40E0D0;
+}
+
+.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
+	border-left-color: #40E0D0;
+}
+
+
+
+
+// section.podcastPlayer {
+// 	background-color: rgba(0, 0, 0, 0.97);
+// }
+
+// .podcastWrapper {
+// 	max-width: 1100px;
+// 	margin: 0 auto;
+// 	padding:0;
+// }
+
+// .podcast__player {
+// 	max-width: 80%;
+// 	margin: auto;
+// 	justify-content: center;
+// 	align-content: center;
+// 	.playButton {
+// 		flex: 1 0 10%;
+// 		text-align: right;
+// 		img {
+// 			border-left: .5px solid $transluscentWhite;
+// 			border-right: .5px solid $transluscentWhite;
+// 			padding: 8% 10%;
+// 		}
+// 	}
+// 	.timeIndicator {
+// 		flex: 1 0 60%;
+// 	}
+// 	.volumeButton {
+// 		flex: 1 0 10%;
+// 		text-align: left;
+// 			img {
+// 				border-left: .5px solid $transluscentWhite;
+// 				border-right: .5px solid $transluscentWhite;
+// 				padding: 8% 10%;
+// 		}
+// 	}
+// }
+
+// .podcast__player {
+// 	.timeIndicator{
+// 		color: $green;
+// 		font-family: $roboto;
+// 		font-weight: bold;
+// 		.transluscentLine {
+// 			flex: 1 0 60%;
+// 			max-width: 80%;
+// 		}
+// 		p {
+// 			font-size: 1.4rem;
+// 			flex: 1 0 5%;
+// 			padding-left: 2%;
+// 			margin: 0;
+// 			letter-spacing: 1px;
+// 		}
+
+// 		p.counter {
+// 			text-align: right;
+// 			padding-right: 2%;
+// 		}
+// 	}
+// }
+

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Soundbyte</title>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans|Roboto|Poppins' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="AudioPlayer/css/audioplayer.css">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+	<header id="home">
+		<div class="wrapper">
+			<div class="logo container">
+				<img src="images/logo.png" alt="Soundbyte logo">
+			</div>
+			<div class="header__nav">
+				<div class="wrapper">
+					<a class="hamburger" href="#"><i class="fa fa-bars"></i></a>
+					<ul class="nav container">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#episodes">Episodes</a></li>
+						<li><a href="#footer">News</a></li>
+						<li><a href="#footer">Shop</a></li>
+						<li><a href="#footer">Contact</a></li>
+						<li><a href="#support">Donate</a></li>
+					</ul>
+				</div><!-- **!wrapper!** -->
+			</div>
+			<div class="header__featured container">
+				<div class="header__featured--aboutLeft">
+					<p class="header__featured--description"><span>A Podcast about tacos and Disney World by</span> Drew Minns</p>
+					<p class="header__featured--time">Live Broadcast Wednesday @ 9pm ET</p>
+					<div class="transluscentLine"></div>
+					<div class="contact">
+						<ul class="social__icons container">
+							<li><a href="#">Subscribe</a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-apple"></i></a></li>
+							<li><a href="#"><i class="fa fa-soundcloud"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header__featured--aboutRight">
+					<div class="podcast__img--overlay">
+						<div class="transluscentLine"></div>
+						<div class="podcast__season container">
+								<p class="podcast__season">Season 3</p>
+								<p class="podcast__time"><i class="fa fa-clock-o"></i> 59 mins</p>
+						</div>
+						<p class="podcast__title">Episode 53: Artist Corner
+						With Justin</p>
+						<p class="podcast__date">October 11,2015</p>
+						<p class="podcast__play"><i class="fa fa-play"></i> Play Episode</p>
+						<p class="podcast__information">In this episode...behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove...</p>
+						<!-- <details "podcast__information">
+ 							<summary>In this episode</summary>
+  							<p>...behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove...</p>
+						</details> -->
+					</div>
+				</div>
+		</div><!-- **!!wrapper!!** -->
+	</header>
+
+	<section class="podcastPlayer">
+		<!-- <div class="podcastWrapper"> -->
+			
+			<audio preload="auto" controls>
+				<source src="AudioPlayer/audio/BlueDucks_FourFlossFiveSix.mp3" />
+				<source src="AudioPlayer/audio/BlueDucks_FourFlossFiveSix.ogg" />
+				<sources src="AudioPlayer/audio/BlueDucks_FourFlossFiveSix.wav" />
+				
+			</audio>
+
+			<!-- <div class="podcast__player container">
+				<div class="playButton">
+					<img src="images/play.png" alt="graphic of a play button">
+				</div>
+				<div class="timeIndicator container">
+					<p class="counter">00:00</p>
+					<div class="transluscentLine"></div>
+					<p>--:--</p>
+				</div>
+				<div class="volumeButton">
+					<img src="images/volume.png" alt="graphic of a volumn button">
+				</div>
+			</div> -->
+<!-- 		</div> --><!-- !!!wrapper!!! -->
+	</section>
+
+	<section class="episodes" id="episodes">
+		<div class="wrapper">
+			<div class="episode__header container">
+				<h2 class="episode__title">Browse Episodes</h2>
+				<a class="episode__all">All</a>
+			</div>
+			<div class="episode__gallery">
+				<ul class="container">
+					<li class="episode__gallery--item">
+						<div class="episode__img">
+							<img src="images/podcast-1.jpg" alt="photo young women on their phones">
+						</div>
+						<div class="podcast__img--overlay">
+						<div class="transluscentLine"></div>
+						<div class="podcast__season container">
+							<p class="podcast__season">Season 3</p>
+							<p class="podcast__time"><i class="fa fa-clock-o"></i> 59 mins</p>
+							</div>
+						<div class="podcast__title">
+							<p class="podcast__title">Episode 52: Chipotle
+							<br >
+							Peppers</p>
+						</div>
+						<p class="podcast__date">October 11,2015</p>
+						<p class="podcast__play"><i class="fa fa-play"></i>Play Episode</p>
+					</li>
+					<li class="episode__gallery--item">
+						<div class="episode__img">
+							<img src="images/podcast-2.jpg" alt="photo of young woman facing camera">
+						</div>
+						<div class="podcast__img--overlay">
+							<div class="transluscentLine"></div>
+							<div class="podcast__season container">
+							<p class="podcast__season">Season 3</p>
+							<p class="podcast__time"><i class="fa fa-clock-o"></i> 59 mins</p>
+							</div>
+							<div class="podcast__title">
+								<p>Episode 51: Space
+								<br >
+								Mountain vs. The Teacups</p>
+							</div>
+							<p class="podcast__date">October 11,2015</p>
+							<p class="podcast__play"><i class="fa fa-play"></i>Play Episode</p>
+						</div>
+					</li>
+					<li class="episode__gallery--item">
+						<div class="episode__img">
+							<img src="images/podcast-3.jpg" alt="photo of young woman facing camera">
+						</div>
+						<div class="podcast__img--overlay">
+							<div class="transluscentLine"></div>
+							<div class="podcast__season container">
+							<p class="podcast__season">Season 3</p>
+							<p class="podcast__time"><i class="fa fa-clock-o"></i> 59 mins</p>
+							</div>
+							<div class="podcast__title">
+								<p>Episode 50: In Which Drew
+								<br >
+								Eats 10 Tacos</p>
+							</div>
+							<p class="podcast__date">October 11,2015</p>
+							<p class="podcast__play"><i class="fa fa-play"></i>Play Episode</p>
+						</div>
+					</li>
+					<li class="episode__gallery--item">
+						<div class="episode__img">
+							<img src="images/podcast-4.jpg" alt="photo of young woman facing camera">
+						</div>
+						<div class="podcast__img--overlay">
+							<div class="transluscentLine"></div>
+							<div class="podcast__season container">
+							<p class="podcast__season">Season 3</p>
+							<p class="podcast__time"><i class="fa fa-clock-o"></i> 59 mins</p>
+							</div>
+							<div class="podcast__title">
+								<p>Episode 49: The Time I Met
+								<br >
+								Dug At Disney World</p>
+							</div>
+							<p class="podcast__date">October 11,2015</p>
+							<p class="podcast__play"><i class="fa fa-play"></i>Play Episode</p>
+						</div>
+					</li>
+					</li>
+					<li class="episode__gallery--item">
+						<div class="episode__img">
+							<img src="images/podcast-5.jpg" alt="photo of young woman facing camera">
+						</div>
+						<div class="podcast__img--overlay">
+							<div class="transluscentLine"></div>
+							<div class="podcast__season container">
+							<p class="podcast__season">Season 3</p>
+							<p class="podcast__time"><i class="fa fa-clock-o"></i> 59 mins</p>
+							</div>
+							<div class="podcast__title">
+								<p>Episode 48: The Best 
+								<br >
+								Tacos At Disney World</p>
+							</div>
+							<p class="podcast__date">October 11,2015</p>
+							<p class="podcast__play"><i class="fa fa-play"></i>Play Episode</p>
+						</div>
+					</li>
+					<li class="episode__gallery--item">
+						<div class="episode__img">
+							<img src="images/podcast-6.jpg" alt="photo of young woman facing camera">
+						</div>
+						<div class="podcast__img--overlay">
+							<div class="transluscentLine"></div>
+							<div class="podcast__season container">
+							<p class="podcast__season">Season 3</p>
+							<p class="podcast__time"><i class="fa fa-clock-o"></i> 59 mins</p>
+							</div>
+							<div class="podcast__title">
+								<p>Episode 47: Interview
+								<br >
+								With A Taco Artist</p>
+							</div>
+							<p class="podcast__date">October 11,2015</p>
+							<p class="podcast__play"><i class="fa fa-play"></i>Play Episode</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="loadMore">
+				<p>Load More</p>
+			</div>
+		</div><!-- **!!wrapper!!** -->
+	</section>
+	
+	<section class="about" id="about">
+		<div class="wrapper">
+			<h3 class="about__title">About Us</h3>
+			<div class="about__drew container">
+				<div class="about__img">
+					<img src="images/about-1.jpg" alt="Photo of snazzy young woman sitting cross legged on a bench">
+				</div>
+				<div class="about__text clearfix">
+					<div class="transluscentLine"></div>
+					<h4>Drew Minns</h4>
+					<p><span class="jobTitle">Designer / Developer</span></p>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove...</p>
+					<div class="about__socialIcons">
+						<ul class="about__icons container">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="about__vic container">
+				<div class="about__img">
+					<img src="images/about-2.jpg" alt="photo of young man focusing a digital camera lens">
+				</div>
+				<div class="about__text clearfix">
+					<div class="transluscentLine"></div>
+					<h4>Vic Vinegar</h4>
+					<p><span class="jobTitle">Designer / Developer</span></p>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove...</p>
+					<div class="about__socialIcons">
+						<ul class="about__icons container">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- **!!wrapper!!** -->
+	</section>
+	
+	<section class="support" id="support">
+		<div class="wrapper">
+			<div class="support__text">
+				<h5>Support The Show</h5>
+				<p>Far far away, behind the <em>word mountains</em>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the <em>coast of the Semantics</em>, a large language ocean. A small river named.</p>
+				<p class="donate"><a href="#">Make A Donation</a></p>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<div class="wrapper">
+			<div class="footer__contact container">
+				<div class="footer__lists">
+					<div class="transluscentLine"></div>
+					<h6>Categories</h6>
+					<ul>
+						<li><a href="#">Season 3</a></li>
+						<li><a href="#">Season 2</a></li>
+						<li><a href="#">Season 1</a></li>
+					</ul>
+				</div>
+				<div class="footer__lists">
+					<div class="transluscentLine"></div>
+					<h6>Archives</h6>
+					<ul>
+						<li><a href="#">October 2015 <span class="grey">(2)</span></a></li>
+						<li><a href="#">September 2015 <span class="grey">(3)</span></a></li>
+						<li><a href="#">August 2015 <span class="grey">(2)</span></a></li>
+					</ul>
+				</div>
+				<div class="footer__lists">
+					<div class="transluscentLine"></div>
+					<h6>Latest News</h6>
+					<ul>
+						<li>
+							<div>
+								<a href="#">Designing Websites For All Devices</a>
+								<p><span class="grey">Nov 4, 2015</span></p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">New Guests Announced for November</a>
+								<p><span class="grey">Nov 4, 2015</span></p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#">Designing Websites for all Devices</a>
+								<p><span class="grey">Nov 4, 2015</span></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__lists ">
+					<div class="transluscentLine"></div>
+					<h6>Follow Us</h6>
+					<ul>
+						<li class="followUs container">
+							<div>
+								<a href="#" class="green">Drew Minns</a>
+								<p><span class="grey">Designer / Developer</span></p>
+							</div>
+							<div class="about__socialIcons">
+								<ul class="about__icons container">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="followUs container">
+							<div>
+								<a href="#" class="green">Vic Vinegar</a>
+								<p><span class="grey">Designer / Developer</span></p>
+							</div>
+							<div class="about__socialIcons">
+								<ul class="about__icons container">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><!-- **!!wrapper!!** -->
+			<div class="footer__bottom">
+				<div class="logo">
+					<img src="images/logo-white.png" alt="Soundbytes white logo">
+				</div>
+				<div class="footer__bottom--nav container">
+					<div class="contact">
+						<ul class="social__icons container">
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-apple"></i></a></li>
+							<li><a href="#"><i class="fa fa-soundcloud"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						</ul>
+					</div>
+					<div class="nav">
+						<a class="hamburger2" href="#"><i class="fa fa-bars"></i></a>
+						<ul class="nav container">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#episodes">Episodes</a></li>
+							<li><a href="#footer">News</a></li>
+							<li><a href="#footer">Shop</a></li>
+							<li><a href="#footer">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="developedBy">
+					<p>@2015 Developed by HackerYou</p>
+				</div>
+			</div>
+		</div><!-- **!!wrapper!!** -->
+	</footer>
+	
+	<script src="AudioPlayer/js/jquery.js"></script>
+	<script src="AudioPlayer/js/audioplayer.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.7.2/jquery.smooth-scroll.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+	<script>
+
+		$(function(){
+
+			$("a").smoothScroll();
+
+			$('audio').audioPlayer();
+
+			$('.hamburger').on('click', function(event){
+				///prevent browser from refreshing
+				event.preventDefault();
+				///check to see if our event is firing
+				console.log('it clicked')
+				///use the jquery slideToggle method to show our nav
+				$('.header__nav ul').slideToggle();
+			});
+
+			$('.hamburger2').on('click', function(event){
+				///prevent browser from refreshing
+				event.preventDefault();
+				///check to see if our event is firing
+				console.log('it clicked')
+				///use the jquery slideToggle method to show our nav
+				$('.footer__bottom--nav ul').slideToggle();
+			});
+		});
+
+	</script>
+
+	<!-- Audioplayer AUTHOR: Osvaldas Valutis, 7 -->
+	<!-- icons by fontawesome -->
+
+</body>
+</html>
